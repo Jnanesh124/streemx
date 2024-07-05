@@ -5,13 +5,13 @@ load_dotenv()
 
 
 class Telegram:
-    API_ID = int(env.get("TELEGRAM_API_ID", 1234))
-    API_HASH = env.get("TELEGRAM_API_HASH", "xyz")
-    OWNER_ID = int(env.get("OWNER_ID", 20516707))
+    API_ID = int(env.get("TELEGRAM_API_ID", 22642372))
+    API_HASH = env.get("TELEGRAM_API_HASH", "cda9f2e2f1c28370447a79c3e39cbe88")
+    OWNER_ID = int(env.get("OWNER_ID", 6331847574))
     ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS", "").split()
-    BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "InstantLinkELBot")
-    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "1234:abcd")
-    CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1001979167499))
+    BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "Rockers_Stream_File_Bot")
+    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "7433957362:AAHH0Tq59AvdLbUtnhc7zTEXJr9WwiymByE")
+    CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1002211186535))
     SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 12))
 
 
